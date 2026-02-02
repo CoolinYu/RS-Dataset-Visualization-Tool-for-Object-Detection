@@ -1,10 +1,10 @@
-# RS Detection Viewer (遥感图像目标检测可视化工具)
+# RS-Dataset-Visualization-Tool-for-Object-Detection
 
 ![License](https://img.shields.io/badge/license-GPL--3.0-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.8%2B-green)
 
 一个基于 Python (Tkinter) 开发的轻量级、交互式遥感图像目标检测数据集可视化工具。
-专为 Windows 10/11 设计，支持 **DOTA**, **VisDrone**, **AI-TOD** 等主流遥感数据集格式。
+支持 **DOTA**, **VisDrone**, **AI-TOD** 等主流遥感数据集格式。
 
 ## ✨ 主要功能 (Features)
 
@@ -19,7 +19,7 @@
     * 支持显示/隐藏类别标签。
 * **DOTA 专属支持**：支持 DOTA 数据集的 **旋转框 (OBB)** 和 **水平外接框 (HBB)** 两种展示模式。
 * **高清保存**：基于原图分辨率进行绘制和保存，拒绝截图造成的模糊。
-* **智能解析**：自动处理不同数据集的格式差异（如 VisDrone 的多余逗号、DOTA 的头部信息过滤）。
+* **智能解析**：自动处理不同数据集的格式差异。
 
 ## 🛠️ 安装与依赖 (Installation)
 
@@ -27,7 +27,7 @@
 
 1.  **克隆仓库**
     ```bash
-    git clone [https://github.com/你的用户名/你的仓库名.git](https://github.com/你的用户名/你的仓库名.git)
+    git clone [https://github.com/CoolinYu/RS-Dataset-Visualization-Tool-for-Object-Detection.git](https://github.com/CoolinYu/RS-Dataset-Visualization-Tool-for-Object-Detection.git)
     cd 你的仓库名
     ```
 
@@ -69,4 +69,7 @@ RS_Viewer/
 
 如果您修改了本项目并发布，请务必开源您的修改部分。
 
-Created by Colin_Yu
+Created by Coolin_Yu
+
+
+---
